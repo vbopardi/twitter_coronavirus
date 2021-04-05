@@ -20,6 +20,6 @@ hashtags=(
     '#doctor'
     )
 for ht in ${hashtags[@]}; do
-    ./src/visualize.py --input_path=reduced.lang --key=$ht | head > viz/$ht
-    ./src/visualize.py --input_path=reduced.country --key=$ht | head > viz/$ht    
+    ./src/visualize.py --input_path=reduced.lang --key=$ht | head > viz/lang/$ht
+    ./src/visualize.py --input_path=reduced.country --key=$ht | head > viz/country/$ht    
 done
