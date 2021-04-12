@@ -1,6 +1,5 @@
 # Coronavirus twitter analysis
 
-#Summary of Assignment 
 In this assignment, I utilized MapReduce along with shell scripting to analyze 
 coronavirus tweets from 2020. I first mapped tweets by organizing them into two files for the most common 
 languages of the tweets as well as the most common geotagged countries of the tweets. I repeated this process
